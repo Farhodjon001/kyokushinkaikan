@@ -1,4 +1,4 @@
 SECRET_KEY = django-insecure-p9+y+6da6eb0v261o520u0evqkngjzw2#3c+xe)%1&d+342_0%
-NAME=NAME
-USER=USER
-PASSWORD=PASSWORD
+NAME=postgres
+USER=postgres
+PASSWORD=1Mokhirjon
