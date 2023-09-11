@@ -7,3 +7,6 @@ class NewsModel(models.Model):
     photo=models.ImageField(upload_to='news/', null=True,blank=True)
     created_time=models.DateField(auto_now_add=True)
     updated_time=models.DateField(auto_now=True)
+
+    class Meta:
+        db_table = 'News'
